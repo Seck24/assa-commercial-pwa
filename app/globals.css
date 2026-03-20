@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #1a3cff;
+  --blue-dark: #1030d0;
+  --blue-light: #4060ff;
+  --blue-bg: #0a1a6e;
+  --white: #ffffff;
+  --gray-100: #f0f2ff;
+  --gray-400: #9aa3cc;
+  --gray-600: #5a6390;
+  --green: #22c55e;
+  --red: #ef4444;
+  --orange: #f97316;
+}
+
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--blue-bg);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+input {
+  font-family: inherit;
+  font-size: 16px; /* évite le zoom iOS */
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
